@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="form_block">
+		<h1>Registration</h1>
+		<form action="index.php">
+			<fieldset>
+				<legend>Account Details</legend>
+					<p>
+						<label for="email">Email *</label><input id="email" type="text" name="email">
+						<label for="r_email">Repeat Email *</label><input id="r_email" type="text" name="r_email">
+					</p>
+
+					<p>
+						<label for="password">Password *</label><input id="password" type="text" name="password">
+						<label for="r_password">Repeat Password *</label><input id="r_password" type="text" name="r_password">
+					</p>
+			</fieldset>
+			<fieldset>
+				<legend>Personal Details</legend>
+					<p><label for="email">Name * </label><input id="email" type="text" name="email"></p>
+					<p><label for="email">Phone * </label><input id="email" type="text" name="email"></p>
+					<p><label for="email">Street </label><input id="email" type="text" name="email"></p>
+					<p><label for="email">City * </label><input id="email" type="text" name="email"></p>
+					<p>
+						<label for="country">Country *</label>
+							<select name="country" id="country">
+								<option value=""></option>
+								<option value="usa">USA</option>
+								<option value="ukr">Ukraine</option>
+								<option value="pol">Poland</option>
+								<option value="nor">Norway</option>
+							</select>
+					</p>
+
+
+					<p><label for="Website">Website *</label><input id="Website" type="text" name="Website" value="https://"></p>
+			</fieldset>	
+
+			<fieldset>
+				<legend>Further Information</legend>
+					<p>
+						<label for="email">Gender * </label>
+							<input id="gender" type="radio" name="gender" value="male">Male
+							<input id="gender" type="radio" name="gender" value="female">Female							
+					</p>
+			</fieldset>
+		</form>
+	</div>
+</body>
+</html>
