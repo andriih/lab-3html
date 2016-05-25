@@ -1,0 +1,17 @@
+table{
+	border: 2px solid black;
+	width: 100%;
+
+
+}
+td{
+	border :1px solid black;
+	margin:3px;
+}
+thead td{
+	font: 24px Arial bold;
+}
+
+tbody td {
+
+}
