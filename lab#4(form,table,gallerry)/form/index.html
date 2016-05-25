@@ -11,23 +11,39 @@
 		<form action="index.php">
 			<fieldset>
 				<legend>Account Details</legend>
+				<div class="main">
 					<p>
-						<div class="field"></div><label for="email">Email *</label><input id="email" type="text" name="email"></div>
-						<div class="field"><label for="r_email">Repeat Email *</label><input id="r_email" type="text" name="r_email"></div>
+						<div class="field">
+							<label for="email">Email *</label>
+							<input id="email" type="text" name="email">
+						</div>
+						<div class="field">
+							<label for="r_email">Repeat Email *</label>
+							<input id="r_email" type="text" name="r_email">
+						</div>
 					</p>
 
 					<p>
-						<label for="password">Password *</label><input id="password" type="text" name="password">
-						<label for="r_password">Repeat Password *</label><input id="r_password" type="text" name="r_password">
+						<div class="field">
+							<label for="password">Password *</label>
+							<input id="password" type="text" name="password">
+						</div>
+
+						<div class="field">
+							<label for="r_password">Repeat Password *</label>
+							<input id="r_password" type="text" name="r_password">
+						</div>
 					</p>
+					</div>
 			</fieldset>
 			<fieldset>
 				<legend>Personal Details</legend>
-					<p><label for="email">Name * </label><input id="email" type="text" name="email"></p>
-					<p><label for="email">Phone * </label><input id="email" type="text" name="email"></p>
-					<p><label for="email">Street </label><input id="email" type="text" name="email"></p>
-					<p><label for="email">City * </label><input id="email" type="text" name="email"></p>
-					<p>
+				<div class="main">
+					<div class="field"><p><label for="email">Name * </label><input id="email" type="text" name="email"></p></div>
+					<div class="field"><p><label for="email">Phone * </label><input id="email" type="text" name="email"></p></div>
+					<div class="field"><p><label for="email">Street </label><input id="email" type="text" name="email"></p></div>
+					<div class="field"><div class="field"><p><label for="email">City * </label><input id="email" type="text" name="email"></p></div>
+					<div class="field"><p>
 						<label for="country">Country *</label>
 							<select name="country" id="country">
 								<option value=""></option>
@@ -36,20 +52,24 @@
 								<option value="pol">Poland</option>
 								<option value="nor">Norway</option>
 							</select>
-					</p>
+					</p></div>
 
 
-					<p><label for="Website">Website *</label><input id="Website" type="text" name="Website" value="https://"></p>
+					<div class="field"><p><label for="Website">Website *</label><input id="Website" type="text" name="Website" value="https://"></p></div>
+				</div>
 			</fieldset>	
 
 			<fieldset>
 				<legend>Further Information</legend>
+					
 					<p>
 						<label for="email">Gender * </label>
 							<input id="gender" type="radio" name="gender" value="male">Male
 							<input id="gender" type="radio" name="gender" value="female">Female							
 					</p>
-					<p>
+					
+					
+						<p>
 						<label for="bd">Birthdate *</label>
 							<select>
 								<option value="01">01</option>
@@ -63,6 +83,7 @@
 							</select>
 							<input type="text" name="year">e.g 1976 
 					</p>
+					
 
 					<p>
 						<label for="nat">Nationality * </label>
@@ -71,13 +92,18 @@
 								<option value="usa">USA</option>
 							</select>
 					</p>
-					<p>
+					
+					
+					
+						<p>
 						<label for="child">Children * </label>
 							<input type="checkbox" id="child">
-					</p>
+						</p>
 						<p><h3>Helpful Information</h3></p>
 						<p>Here comes some explaining text, sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-					</p>	
+					</p>
+					
+				</div>
 			</fieldset>
 
 			<fieldset>
